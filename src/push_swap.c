@@ -6,7 +6,7 @@
 /*   By: akeawdou <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/10 21:25:26 by akeawdou          #+#    #+#             */
-/*   Updated: 2023/03/25 18:49:55 by akeawdou         ###   ########.fr       */
+/*   Updated: 2023/03/25 20:56:11 by akeawdou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@ int	main(int argc, char *argv[])
 	b = (t_list **)malloc (sizeof (t_list *));
 	if (a == NULL && b == NULL)
 		return (1);
+	/*
 	makestack(argc, argv, a);
 	if (is_sorted(a))
 	{
@@ -32,9 +33,10 @@ int	main(int argc, char *argv[])
 		ft_lstclear(b);
 		return (0);
 	}
-	//sortstack(a, b);
+	sortstack(a, b);
 	ft_lstclear(a);
 	ft_lstclear(b);
+	*/
 	return (0);
 }
 
